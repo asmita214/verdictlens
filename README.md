@@ -67,11 +67,10 @@ Binary flags: is_murder, bail_granted, court_known, judge_known
 Label encoding for all categorical variables
 
 Step 5 — Model Training
-521 rows with complete sentence labels used for training
 XGBoost classifier on 3 sentence severity categories
 GridSearchCV across 324 hyperparameter combinations
 SMOTE oversampling to handle class imbalance
-Final CV accuracy: 64.2% which is 1.9x above random baseline
+Two-stage approach separating life imprisonment from fixed-term sentences
 
 Step 6 — Explainability and Anomaly Detection
 SHAP TreeExplainer for per-prediction feature attribution
@@ -88,36 +87,11 @@ Anomaly score derived from deviation distribution per judge
 |-----------|-----------|---------|
 | NER Extraction | spaCy + regex | Extract structured fields from judgment text |
 | Classification | XGBoost | Predict sentence severity category |
-| Tuning | GridSearchCV | Find optimal hyperparameters |
-| Imbalance | SMOTE | Oversample minority classes |
+| Tuning | GridSearchCV | Find optimal hyperparameters across 324 combinations |
+| Imbalance | SMOTE | Oversample minority classes for balanced training |
 | Explainability | SHAP TreeExplainer | Per-prediction feature attribution |
 | Anomaly Detection | Deviation scoring | Flag statistically abnormal judges |
 | Similarity Search | TF-IDF cosine similarity | Find similar historical cases |
-
----
-
-## Model Performance
-
-| Metric | Value |
-|--------|-------|
-| CV Accuracy | 64.2% |
-| Random Baseline | 33.3% |
-| Improvement over random | 1.9x |
-| Training samples | 416 |
-| Test samples | 105 |
-| Classes | Short / Medium / Severe |
-
-Note: Legal sentencing prediction has high inherent variance due to unobservable factors like evidence quality and witness testimony. Published research on similar Indian legal datasets reports 58 to 72% accuracy. The model establishes a baseline expected sentence range used to measure judicial deviation rather than for precise prediction.
-
----
-
-## Sentence Categories
-
-| Category | Range | Meaning |
-|----------|-------|---------|
-| Short | 1 to 3 years | Minor to moderate offenses |
-| Medium | 4 to 7 years | Serious offenses |
-| Severe | 8 years and above including life | Most serious crimes |
 
 ---
 
@@ -179,8 +153,8 @@ Judge identity ranks 3rd above bail status, defendant age, and court location. F
 - Framer Motion for animations
 
 **Deployment**
-- Backend on Render free tier
-- Frontend on Vercel free tier
+- Backend on Render
+- Frontend on Vercel
 - GitHub for version control and automatic redeployment on push
 
 ---
@@ -189,7 +163,7 @@ Judge identity ranks 3rd above bail status, defendant age, and court location. F
 
 - **Primary** — Immanuel30303/Indian-High-Court-Judgments-all on HuggingFace with 5.5 million High Court judgment records streamed and filtered for criminal cases
 - **Secondary** — eCourts public portal PDFs parsed with pdfplumber and pytesseract OCR
-- **Final dataset** — 852 criminal cases with 521 having complete sentence labels for model training
+- **Final dataset** — 852 criminal cases with complete NLP-extracted features
 
 ---
 
