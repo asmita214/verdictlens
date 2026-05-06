@@ -1,0 +1,10 @@
+judge_name,cases,mean_actual,mean_predicted,mean_deviation,abs_deviation,anomaly_score
+R.R. JAIN,5,1.4,2.0,-0.6,0.6,100.0
+unknown,272,1.217,1.114,0.103,0.426,71.0
+H. J. Umrigar,7,0.429,0.143,0.286,0.286,47.7
+Frank Anthony,4,1.25,1.0,0.25,0.25,41.7
+A.N. DIVECHA,21,1.714,1.905,-0.19,0.19,31.7
+Approval,8,0.375,0.25,0.125,0.125,20.8
+Basudeo Sahai,3,0.0,0.0,0.0,0.0,0.0
+OZA,3,1.333,1.333,0.0,0.0,0.0
+Justice R. R. Jain,13,2.0,2.0,0.0,0.0,0.0

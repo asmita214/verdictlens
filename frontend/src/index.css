@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ═══════════════════════════════════════════════════
+   VERDICTLENS — DARK JUDICIAL INTELLIGENCE THEME
+   ═══════════════════════════════════════════════════ */
+
+:root {
+  /* Core Backgrounds — pure obsidian, zero blue tint */
+  --void:        #050505;
+  --bg-deep:     #080808;
+  --bg-base:     #0C0C0C;
+  --bg-surface:  #111111;
+  --bg-card:     #181818;
+  --bg-elevated: #202020;
+  --bg-glass:    rgba(18, 18, 18, 0.80);
+
+  /* Gold / Justice Amber */
+  --gold-100:    #FFF8E7;
+  --gold-300:    #F0D090;
+  --gold-400:    #E8C76C;
+  --gold:        #C9A84C;
+  --gold-600:    #A8862A;
+  --gold-700:    #856718;
+  --gold-glow:   rgba(201, 168, 76, 0.35);
+
+  /* Crimson Justice Red */
+  --crimson:     #8B1A2D;
+  --crimson-500: #B02240;
+  --crimson-400: #D44060;
+  --crimson-glow: rgba(176, 34, 64, 0.35);
+
+  /* Copper / Bronze — replaces generic blue/purple */
+  --copper:      #D4783A;
+  --copper-400:  #E8924E;
+  --copper-glow: rgba(212,120,58,0.3);
+
+  /* Warm Rose — replaces sky blue */
+  --rose:        #E8607A;
+  --rose-400:    #F07A90;
+  --rose-glow:   rgba(232,96,122,0.3);
+  --emerald:     #1B6B52;
+  --emerald-400: #2E9972;
+  --emerald-300: #4DB890;
+  --emerald-glow: rgba(46, 153, 114, 0.3);
+
+  /* Text — warm neutral, no blue */
+  --text-1:    #F2F0EC;
+  --text-2:    #B8B4A8;
+  --text-3:    #6E6A62;
+  --text-4:    #3E3A34;
+
+  /* Borders */
+  --border-gold:    rgba(201, 168, 76, 0.22);
+  --border-subtle:  rgba(255, 255, 255, 0.07);
+  --border-medium:  rgba(255, 255, 255, 0.12);
+
+  /* Gradients */
+  --grad-gold:     linear-gradient(135deg, #C9A84C 0%, #E8C76C 50%, #A8862A 100%);
+  --grad-gold-h:   linear-gradient(90deg, #C9A84C, #E8C76C);
+  --grad-bg:       linear-gradient(180deg, #050505 0%, #0C0C0C 100%);
+  --grad-card:     linear-gradient(145deg, #1C1C1C 0%, #141414 100%);
+  --grad-crimson:  linear-gradient(135deg, #8B1A2D 0%, #B02240 100%);
+  --grad-hero:     linear-gradient(150deg, #080808 0%, #0D0906 40%, #080808 100%);
+}
+
+/* ── Reset ── */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body, #root {
+  height: 100%;
+  background: var(--bg-deep);
+  color: var(--text-1);
+  font-family: 'Inter', 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: var(--bg-deep); }
+::-webkit-scrollbar-thumb { background: var(--gold-700); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--gold); }
+
+/* ── Cards ── */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+  transition: box-shadow 200ms ease, transform 200ms ease, border-color 200ms ease;
+}
+
+.card-hover:hover {
+  border-color: var(--border-gold);
+  box-shadow: 0 0 0 1px var(--border-gold), 0 20px 60px rgba(0,0,0,0.5), 0 0 40px var(--gold-glow);
+  transform: translateY(-2px);
+}
+
+.card-glass {
+  background: var(--bg-glass);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+}
+
+/* ── Pill badges ── */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 99px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* ── Gold Button ── */
+.btn-gold {
+  background: var(--grad-gold);
+  color: #1A1000;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 200ms ease;
+  box-shadow: 0 4px 20px var(--gold-glow);
+}
+.btn-gold:hover {
+  box-shadow: 0 6px 30px var(--gold-glow), 0 0 60px rgba(201,168,76,0.2);
+  transform: translateY(-1px);
+}
+
+/* ── Section bg ── */
+.section-bg {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+}
+
+/* ── Grid bg ── */
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(201,168,76,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(201,168,76,0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* ── Glow effects ── */
+.glow-gold { box-shadow: 0 0 30px var(--gold-glow); }
+.glow-crimson { box-shadow: 0 0 30px var(--crimson-glow); }
+.glow-emerald { box-shadow: 0 0 30px var(--emerald-glow); }
+
+.text-gold { color: var(--gold); }
+.text-gold-bright { color: var(--gold-400); }
+.text-crimson { color: var(--crimson-400); }
+.text-silver { color: var(--silver); }
+.text-dim { color: var(--text-3); }
+
+/* ── Gradient Text ── */
+.gradient-text {
+  background: var(--grad-gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Noise overlay for depth ── */
+.noise-overlay::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  pointer-events: none;
+  opacity: 0.04;
+  border-radius: inherit;
+}
+
+/* ── Loading spinner ── */
+.spinner {
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  border: 3px solid rgba(201,168,76,0.15);
+  border-top-color: var(--gold);
+  animation: spin 0.9s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── Pulse ring ── */
+@keyframes pulse-ring {
+  0% { transform: scale(0.9); opacity: 1; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+.pulse-ring::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 1px solid var(--gold);
+  animation: pulse-ring 2s ease-out infinite;
+}
+
+/* ── Gold shimmer ── */
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+.shimmer-gold {
+  background: linear-gradient(90deg, var(--gold-700) 25%, var(--gold-400) 50%, var(--gold-700) 75%);
+  background-size: 200% auto;
+  animation: shimmer 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Floating animation ── */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+.float-anim { animation: float 4s ease-in-out infinite; }
+
+/* ── Scan line ── */
+@keyframes scan {
+  0% { top: 0%; opacity: 0; }
+  5% { opacity: 1; }
+  95% { opacity: 1; }
+  100% { top: 100%; opacity: 0; }
+}
+
+/* ── Landing specific ── */
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(201,168,76,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(201,168,76,0.06) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+.orb {
+  border-radius: 50%;
+  filter: blur(80px);
+  position: absolute;
+  pointer-events: none;
+}
+
+/* Animated border gradient */
+@keyframes border-spin {
+  to { --angle: 360deg; }
+}
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+/* ── Recharts dark overrides ── */
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: rgba(255,255,255,0.05) !important;
+}
+.recharts-text { fill: var(--text-3) !important; }
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  background: var(--bg-elevated) !important;
+  border: 1px solid var(--border-gold) !important;
+  border-radius: 12px !important;
+}
+
+/* ── Wavy line ── */
+@keyframes wave {
+  0% { stroke-dashoffset: 1000; }
+  100% { stroke-dashoffset: 0; }
+}

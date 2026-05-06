@@ -1,0 +1,522 @@
+doc_id,judge_name,offense_type,sentence_years,predicted_category,actual_category,category_deviation
+hc_10,Basudeo Sahai,murder,2.0,0,0,0
+hc_100,JUSTICE A. N. DIVECHA,murder,20.0,2,2,0
+hc_102,A.N. DIVECHA,murder,20.0,2,2,0
+hc_1036,unknown,assault,20.0,2,2,0
+hc_104,unknown,murder,20.0,2,2,0
+hc_106,A.N. DIVECHA,drug,10.0,2,2,0
+hc_108,unknown,murder,20.0,0,2,2
+hc_110,AJAY KUMAR TRIPATHI,murder,3.0,0,0,0
+hc_111,unknown,murder,10.0,2,2,0
+hc_113,unknown,murder,20.0,2,2,0
+hc_1132,unknown,murder,20.0,2,2,0
+hc_119,Justice R. R. Jain,robbery,10.0,2,2,0
+hc_120,R.R. JAIN,murder,5.0,2,1,-1
+hc_122,unknown,murder,20.0,2,2,0
+hc_1254,unknown,murder,7.0,2,1,-1
+hc_126,Approval,fraud,1.0,0,0,0
+hc_13,unknown,robbery,20.0,2,2,0
+hc_1322,unknown,murder,20.0,2,2,0
+hc_133,Justice R. R. Jain,murder,20.0,2,2,0
+hc_1366,unknown,drug,10.0,2,2,0
+hc_138,unknown,other,1.0,0,0,0
+hc_139,unknown,drug,10.0,1,2,1
+hc_140,Justice R. R. Jain,murder,20.0,2,2,0
+hc_141,JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ,murder,20.0,2,2,0
+hc_142,Justice R. R. Jain,murder,20.0,2,2,0
+hc_146,Justice R. R. Jain,murder,20.0,2,2,0
+hc_1464,unknown,murder,20.0,2,2,0
+hc_147,unknown,murder,20.0,2,2,0
+hc_1470,unknown,murder,20.0,2,2,0
+hc_149,unknown,theft,2.0,0,0,0
+hc_150,unknown,murder,7.0,2,1,-1
+hc_159,unknown,murder,20.0,2,2,0
+hc_16,Saran,murder,20.0,2,2,0
+hc_1621,unknown,drug,4.0,1,1,0
+hc_164,Approval,rape,2.0,0,0,0
+hc_165,unknown,other,20.0,0,2,2
+hc_168,unknown,fraud,20.0,0,2,2
+hc_173,A.N. DIVECHA,murder,20.0,2,2,0
+hc_177,unknown,other,5.0,1,1,0
+hc_18,unknown,murder,20.0,2,2,0
+hc_180,A.N. DIVECHA,murder,20.0,2,2,0
+hc_181,Justice R. R. Jain,murder,20.0,2,2,0
+hc_185,unknown,murder,20.0,2,2,0
+hc_187,MR.JUSTICE,murder,4.0,2,1,-1
+hc_188,unknown,other,1.0,0,0,0
+hc_19,Jharkhand,murder,20.0,2,2,0
+hc_1910,unknown,murder,10.0,2,2,0
+hc_1918,unknown,murder,20.0,2,2,0
+hc_192,R.R. JAIN,murder,20.0,2,2,0
+hc_196,Approval,rape,2.0,0,0,0
+hc_197,Approval,fraud,1.0,0,0,0
+hc_207,unknown,murder,20.0,2,2,0
+hc_211,unknown,assault,20.0,1,2,1
+hc_219,Justice R. R. Jain,murder,20.0,2,2,0
+hc_225,unknown,assault,3.0,0,0,0
+hc_228,unknown,rape,7.0,1,1,0
+hc_230,unknown,robbery,2.0,0,0,0
+hc_231,Justice R. R. Jain,murder,9.0,2,2,0
+hc_234,Justice R. R. Jain,murder,20.0,2,2,0
+hc_238,Justice R. R. Jain,murder,20.0,2,2,0
+hc_24,unknown,murder,20.0,2,2,0
+hc_243,unknown,rape,20.0,1,2,1
+hc_244,B.C. Patel,murder,20.0,1,2,1
+hc_246,unknown,rape,10.0,0,2,2
+hc_249,unknown,other,1.0,0,0,0
+hc_26,unknown,murder,2.0,0,0,0
+hc_262,R.R. JAIN,murder,20.0,2,2,0
+hc_263,unknown,other,1.0,0,0,0
+hc_265,unknown,assault,3.0,1,0,-1
+hc_267,unknown,murder,20.0,2,2,0
+hc_272,S.D. DAVE,assault,4.0,1,1,0
+hc_276,unknown,other,8.0,2,2,0
+hc_278,S.D. DAVE,murder,20.0,2,2,0
+hc_283,unknown,assault,7.0,0,1,1
+hc_294,Justice R. R. Jain,assault,10.0,2,2,0
+hc_297,unknown,murder,20.0,2,2,0
+hc_30,Sri Sarju Prasad,murder,7.0,2,1,-1
+hc_307,Approval,fraud,1.0,0,0,0
+hc_318,unknown,drug,10.0,1,2,1
+hc_319,R.R. JAIN,murder,1.0,2,0,-2
+hc_321,Justice R. R. Jain,murder,20.0,2,2,0
+hc_322,unknown,murder,10.0,2,2,0
+hc_323,Justice R. R. Jain,drug,10.0,2,2,0
+hc_327,unknown,murder,20.0,2,2,0
+hc_328,R.R. JAIN,murder,20.0,2,2,0
+hc_33,unknown,murder,20.0,2,2,0
+hc_330,unknown,murder,7.0,2,1,-1
+hc_336,unknown,kidnapping,2.0,0,0,0
+hc_34,unknown,murder,1.0,0,0,0
+hc_344,Approval,fraud,1.0,0,0,0
+hc_35,R. N. Jha,rape,1.0,1,0,-1
+hc_351,unknown,assault,10.0,1,2,1
+hc_364,unknown,murder,20.0,2,2,0
+hc_37,unknown,murder,7.0,0,1,1
+hc_375,A.N. DIVECHA,murder,20.0,2,2,0
+hc_376,unknown,murder,5.0,2,1,-1
+hc_38,Sri Sohailur Rahman,other,4.0,1,1,0
+hc_387,unknown,murder,7.0,2,1,-1
+hc_39,Muzaffarpur,rape,5.0,1,1,0
+hc_396,unknown,murder,20.0,2,2,0
+hc_4,Sri Rajendra Prasad Choudhary,robbery,20.0,2,2,0
+hc_403,unknown,murder,3.0,2,0,-2
+hc_410,unknown,murder,7.0,2,1,-1
+hc_414,unknown,rape,1.0,0,0,0
+hc_418,A.N. DIVECHA,robbery,10.0,2,2,0
+hc_427,Approval,murder,4.0,1,1,0
+hc_429,Versus State,murder,1.0,0,0,0
+hc_43,unknown,murder,10.0,2,2,0
+hc_44,Jamui,kidnapping,10.0,2,2,0
+hc_46,unknown,other,3.0,0,0,0
+hc_5,unknown,murder,2.0,0,0,0
+hc_51,unknown,assault,1.0,0,0,0
+hc_52,Samastipur,murder,7.0,2,1,-1
+hc_53,Shree Sudarshan Upadhyay,murder,20.0,2,2,0
+hc_54,unknown,murder,5.0,1,1,0
+hc_540,unknown,murder,20.0,2,2,0
+hc_56,unknown,murder,1.0,0,0,0
+hc_564,unknown,assault,2.0,0,0,0
+hc_57,A.N. DIVECHA,drug,10.0,2,2,0
+hc_59,A.N. DIVECHA,murder,1.0,2,0,-2
+hc_60,A.N. DIVECHA,murder,20.0,2,2,0
+hc_63,A.N. DIVECHA,murder,10.0,2,2,0
+hc_64,A.N. DIVECHA,drug,10.0,2,2,0
+hc_65,A.N. DIVECHA,murder,20.0,2,2,0
+hc_67,unknown,murder,20.0,2,2,0
+hc_68,A.N. DIVECHA,murder,20.0,2,2,0
+hc_69,A.N. DIVECHA,murder,20.0,2,2,0
+hc_70,unknown,murder,20.0,2,2,0
+hc_72,A.N. DIVECHA,drug,3.0,0,0,0
+hc_73,A.N.DIVECHA & H.R.SHELAT,murder,20.0,2,2,0
+hc_74,A.N. DIVECHA,murder,20.0,2,2,0
+hc_75,A.N. DIVECHA,drug,10.0,2,2,0
+hc_76,Approval,murder,20.0,1,2,1
+hc_79,A.N. DIVECHA,murder,20.0,2,2,0
+hc_8,Basudeo Sahai,murder,2.0,0,0,0
+hc_80,unknown,murder,10.0,2,2,0
+hc_803,MR.JUSTICE,murder,20.0,2,2,0
+hc_822,MR.JUSTICE N.,murder,20.0,2,2,0
+hc_887,unknown,murder,5.0,2,1,-1
+hc_9,Basudeo Sahai,murder,2.0,0,0,0
+hc_91,A.N. DIVECHA,murder,20.0,2,2,0
+hc_92,A.N. DIVECHA,murder,2.0,2,0,-2
+hc_926,unknown,murder,20.0,2,2,0
+hc_95,A.N. DIVECHA,theft,10.0,2,2,0
+hc_99,H.R. SHELAT,murder,20.0,2,2,0
+inj_1033,unknown,murder,20.0,0,2,2
+inj_1046,unknown,fraud,20.0,0,2,2
+inj_1050,unknown,murder,10.0,1,2,1
+inj_1085,unknown,murder,20.0,1,2,1
+inj_1134,H. J. Umrigar,fraud,20.0,0,2,2
+inj_1145,unknown,murder,20.0,0,2,2
+inj_1175,R. L. Kohli,kidnapping,7.0,1,1,0
+inj_1187,unknown,other,1.0,0,0,0
+inj_1203,unknown,murder,14.0,1,2,1
+inj_1211,unknown,murder,2.0,0,0,0
+inj_1263,unknown,murder,20.0,2,2,0
+inj_1280,Mandi Pili Bangan,murder,20.0,2,2,0
+inj_1304,unknown,murder,10.0,2,2,0
+inj_1326,Rajini Patel,murder,20.0,2,2,0
+inj_133,Simla,murder,10.0,2,2,0
+inj_1365,Gohilwad,murder,20.0,2,2,0
+inj_1391,Prithviraj Singh,murder,20.0,1,2,1
+inj_1402,R.R. Chari,fraud,2.0,0,0,0
+inj_1405,Mudholkar,murder,5.0,2,1,-1
+inj_1411,unknown,robbery,20.0,2,2,0
+inj_1428,unknown,assault,1.0,0,0,0
+inj_1450,din Ahmed	 J.	B. Dadachanji,fraud,2.0,0,0,0
+inj_1451,Jai Gopal Sethi,murder,5.0,1,1,0
+inj_1454,unknown,kidnapping,2.0,0,0,0
+inj_1463,Frank Anthony	 K. C. Agarwala,murder,3.0,2,0,-2
+inj_1464,Ferozepore,murder,20.0,0,2,2
+inj_1482,R. N. Sachthey,murder,20.0,2,2,0
+inj_1486,A. N. Mulla,fraud,3.0,0,0,0
+inj_1500,Kheri,murder,2.0,0,0,0
+inj_151,A. A. Peerbhoy,murder,10.0,2,2,0
+inj_1512,unknown,assault,6.0,1,1,0
+inj_1514,unknown,murder,20.0,1,2,1
+inj_1530,Ravinder Narain,murder,20.0,2,2,0
+inj_1531,unknown,murder,20.0,1,2,1
+inj_155,Chainani JJ,drug,2.0,0,0,0
+inj_1551,unknown,robbery,5.0,0,1,1
+inj_1568,Subba Rao,robbery,1.0,0,0,0
+inj_1573,Chittaranjan Das,rape,4.0,1,1,0
+inj_1576,unknown,murder,20.0,2,2,0
+inj_1604,unknown,murder,2.0,0,0,0
+inj_1605,HIDAYATULLAH J.,assault,3.0,0,0,0
+inj_1606,J. Sajjan Singh,fraud,1.0,0,0,0
+inj_1607,unknown,theft,20.0,0,2,2
+inj_1652,HIDAYATULLAH J.,murder,6.0,2,1,-1
+inj_1667,unknown,robbery,20.0,0,2,2
+inj_1692,unknown,murder,4.0,2,1,-1
+inj_170,unknown,fraud,1.0,0,0,0
+inj_1701,Kumar Paul,fraud,2.0,0,0,0
+inj_1716,unknown,murder,4.0,0,1,1
+inj_1718,unknown,murder,20.0,1,2,1
+inj_1721,unknown,murder,20.0,1,2,1
+inj_175,unknown,fraud,7.0,1,1,0
+inj_1783,unknown,murder,20.0,1,2,1
+inj_1793,Mudholkar J.,assault,1.0,0,0,0
+inj_1803,Subba Rao J.,murder,20.0,1,2,1
+inj_1830,unknown,other,4.0,0,1,1
+inj_1839,Ahmad,murder,2.0,1,0,-1
+inj_1848,Subba Rao J. Raghubar Dayal,assault,6.0,1,1,0
+inj_1906,Mudholkar	 J.,other,4.0,1,1,0
+inj_2022,unknown,assault,2.0,0,0,0
+inj_2053,unknown,murder,4.0,1,1,0
+inj_2066,Pampapathy,murder,20.0,2,2,0
+inj_215,unknown,other,3.0,0,0,0
+inj_2243,unknown,murder,7.0,1,1,0
+inj_2262,unknown,murder,20.0,1,2,1
+inj_2290,unknown,other,1.0,0,0,0
+inj_2295,unknown,murder,20.0,1,2,1
+inj_2297,unknown,murder,2.0,0,0,0
+inj_2310,Iman Ali,robbery,20.0,2,2,0
+inj_2320,unknown,murder,20.0,2,2,0
+inj_2328,Ramnath,robbery,2.0,0,0,0
+inj_2330,unknown,murder,20.0,2,2,0
+inj_2333,unknown,other,2.0,0,0,0
+inj_2403,unknown,murder,6.0,2,1,-1
+inj_2427,unknown,fraud,2.0,0,0,0
+inj_2433,Nirbhay Singh,murder,7.0,1,1,0
+inj_2434,Swami Nath,murder,2.0,0,0,0
+inj_2445,unknown,other,5.0,0,1,1
+inj_2452,unknown,other,1.0,0,0,0
+inj_2478,Healy,murder,2.0,0,0,0
+inj_2479,unknown,murder,20.0,2,2,0
+inj_2489,Murder Refer,murder,5.0,1,1,0
+inj_2576,Bhagalpur,murder,4.0,1,1,0
+inj_2678,unknown,robbery,3.0,0,0,0
+inj_2684,Bhaiya Ramanuj Pratap Deo,murder,1.0,0,0,0
+inj_2711,unknown,murder,2.0,0,0,0
+inj_2725,J. L. Hathi,murder,5.0,1,1,0
+inj_2744,unknown,murder,7.0,1,1,0
+inj_276,unknown,fraud,1.0,0,0,0
+inj_2761,Ray,murder,20.0,2,2,0
+inj_2769,Manti Lal,murder,10.0,2,2,0
+inj_2790,M. K. Ramamurthi,fraud,1.0,0,0,0
+inj_2803,unknown,murder,20.0,0,2,2
+inj_2815,O. P. Rana,murder,20.0,2,2,0
+inj_2818,unknown,other,3.0,0,0,0
+inj_2834,unknown,murder,2.0,0,0,0
+inj_2841,Grover	 J. Hazara Singh,murder,1.0,0,0,0
+inj_2858,section V. Gupte,rape,6.0,0,1,1
+inj_2864,Chatterjee,murder,4.0,2,1,-1
+inj_2903,unknown,murder,5.0,2,1,-1
+inj_2939,Jaganmohan Reddy,other,1.0,0,0,0
+inj_2940,P. Jaganmohan Reddy,murder,20.0,2,2,0
+inj_2968,Jaganmohan Reddy,fraud,20.0,0,2,2
+inj_2978,unknown,other,1.0,0,0,0
+inj_2984,Beg,other,2.0,0,0,0
+inj_2989,din Ahmed,assault,5.0,0,1,1
+inj_3008,unknown,assault,2.0,0,0,0
+inj_3012,Mahasu,murder,20.0,2,2,0
+inj_3013,Khanna,murder,20.0,2,2,0
+inj_3033,Khanna,assault,20.0,1,2,1
+inj_3058,unknown,fraud,5.0,0,1,1
+inj_3062,Asansol,other,2.0,0,0,0
+inj_3073,Sangli,murder,20.0,1,2,1
+inj_3074,Baljit Singh,murder,20.0,1,2,1
+inj_3079,unknown,murder,20.0,2,2,0
+inj_3089,unknown,murder,20.0,2,2,0
+inj_310,unknown,fraud,4.0,0,1,1
+inj_3110,Sitapur,murder,20.0,2,2,0
+inj_3124,O.P. Rana,murder,7.0,2,1,-1
+inj_3131,unknown,murder,20.0,2,2,0
+inj_3142,unknown,murder,5.0,1,1,0
+inj_3144,Ram Kumar Pandey,murder,20.0,2,2,0
+inj_3153,unknown,murder,7.0,1,1,0
+inj_3158,unknown,fraud,1.0,0,0,0
+inj_3208,unknown,murder,2.0,0,0,0
+inj_3209,Daryao Singh,murder,20.0,2,2,0
+inj_3210,Mohd,theft,20.0,0,2,2
+inj_3221,J. Beg,murder,20.0,2,2,0
+inj_3251,unknown,murder,20.0,2,2,0
+inj_3261,unknown,fraud,2.0,0,0,0
+inj_3266,unknown,fraud,1.0,0,0,0
+inj_3289,unknown,theft,1.0,0,0,0
+inj_33,unknown,murder,5.0,1,1,0
+inj_3301,Frank Anthony	 K. B. Rohtagi,other,1.0,0,0,0
+inj_3316,Parkash,murder,10.0,2,2,0
+inj_3322,unknown,murder,1.0,0,0,0
+inj_3325,M. N. Shroff,murder,7.0,2,1,-1
+inj_3329,Ninaji Raoji Boudha,assault,5.0,1,1,0
+inj_3349,Maina Singh,murder,10.0,2,2,0
+inj_3362,unknown,murder,20.0,0,2,2
+inj_337,BOSE J.,murder,10.0,1,2,1
+inj_3398,unknown,murder,20.0,2,2,0
+inj_3410,unknown,murder,20.0,1,2,1
+inj_3476,unknown,murder,20.0,2,2,0
+inj_351,H. J. Umrigar,fraud,1.0,0,0,0
+inj_3543,unknown,murder,8.0,2,2,0
+inj_3549,BEG J.,murder,7.0,1,1,0
+inj_3552,Frank Anthony,murder,20.0,2,2,0
+inj_3574,Fazal Ali	 J.,murder,20.0,2,2,0
+inj_3614,unknown,murder,3.0,2,0,-2
+inj_3632,GUPTA,robbery,4.0,2,1,-1
+inj_3642,unknown,murder,20.0,1,2,1
+inj_3648,Palaniappa Gounder,murder,20.0,1,2,1
+inj_3653,Frank Anthony,kidnapping,7.0,0,1,1
+inj_3670,R.C. Kaushik,murder,3.0,1,0,-1
+inj_368,H.J. Umrigar,murder,5.0,0,1,1
+inj_3692,P. Narayan,murder,20.0,2,2,0
+inj_3710,O. P. Sharma,assault,20.0,1,2,1
+inj_3712,J. Narayanan Satheesan,murder,20.0,0,2,2
+inj_3723,unknown,murder,20.0,2,2,0
+inj_3724,unknown,murder,20.0,1,2,1
+inj_3725,unknown,murder,1.0,2,0,-2
+inj_3733,Frank Anthony,murder,10.0,2,2,0
+inj_3749,unknown,murder,3.0,2,0,-2
+inj_3754,unknown,murder,5.0,1,1,0
+inj_3767,unknown,murder,20.0,2,2,0
+inj_3771,Udaipur,murder,20.0,0,2,2
+inj_3789,R. B. Datar,fraud,20.0,0,2,2
+inj_381,BOSE J.,fraud,2.0,0,0,0
+inj_3817,B. Ramrakhiani,robbery,20.0,2,2,0
+inj_382,Bahraich,murder,7.0,1,1,0
+inj_3834,Jullundur,murder,7.0,2,1,-1
+inj_3842,unknown,drug,1.0,1,0,-1
+inj_3847,unknown,other,1.0,0,0,0
+inj_3852,unknown,other,2.0,0,0,0
+inj_3854,D. A. Desai JJ,murder,20.0,2,2,0
+inj_3858,R. K. Garg,murder,20.0,2,2,0
+inj_3866,unknown,murder,20.0,2,2,0
+inj_3877,unknown,murder,20.0,2,2,0
+inj_3878,Dehradun,murder,20.0,2,2,0
+inj_390,unknown,fraud,2.0,0,0,0
+inj_3901,unknown,rape,2.0,1,0,-1
+inj_3909,unknown,murder,10.0,1,2,1
+inj_3963,Chanan Singh,murder,10.0,0,2,2
+inj_398,unknown,murder,10.0,1,2,1
+inj_3988,unknown,murder,7.0,1,1,0
+inj_4019,unknown,murder,20.0,1,2,1
+inj_4038,unknown,murder,20.0,2,2,0
+inj_4065,unknown,other,1.0,0,0,0
+inj_4086,unknown,murder,1.0,1,0,-1
+inj_4089,unknown,murder,20.0,2,2,0
+inj_410,unknown,theft,2.0,0,0,0
+inj_4100,M. L. Nanda,theft,1.0,0,0,0
+inj_4161,GUPTA,murder,20.0,2,2,0
+inj_4169,J. L. Nain,murder,2.0,0,0,0
+inj_4196,unknown,murder,20.0,2,2,0
+inj_4216,unknown,murder,20.0,1,2,1
+inj_4222,unknown,murder,20.0,1,2,1
+inj_4224,unknown,murder,20.0,2,2,0
+inj_4225,unknown,murder,20.0,2,2,0
+inj_4246,unknown,murder,3.0,2,0,-2
+inj_4249,unknown,murder,20.0,2,2,0
+inj_4255,unknown,kidnapping,1.0,0,0,0
+inj_4257,unknown,murder,20.0,2,2,0
+inj_4260,unknown,murder,3.0,1,0,-1
+inj_4261,unknown,murder,20.0,2,2,0
+inj_4266,unknown,fraud,1.0,0,0,0
+inj_4269,R. K. Garg,murder,7.0,1,1,0
+inj_4278,unknown,murder,2.0,2,0,-2
+inj_4324,unknown,murder,20.0,2,2,0
+inj_4332,unknown,murder,20.0,2,2,0
+inj_4357,unknown,murder,20.0,2,2,0
+inj_436,Moradavad,murder,2.0,2,0,-2
+inj_4381,Muniappan,murder,20.0,2,2,0
+inj_4389,C.K. Sucharita,assault,3.0,0,0,0
+inj_4394,unknown,murder,7.0,1,1,0
+inj_4406,unknown,murder,20.0,0,2,2
+inj_4424,Frank Anthony,other,1.0,0,0,0
+inj_4440,unknown,murder,6.0,2,1,-1
+inj_4443,unknown,murder,20.0,1,2,1
+inj_4444,unknown,robbery,3.0,2,0,-2
+inj_4448,unknown,murder,20.0,2,2,0
+inj_4454,unknown,murder,20.0,2,2,0
+inj_4465,J. Appellant Earabhadrappa @ Krishnappa,murder,20.0,2,2,0
+inj_4466,Naval Garg,murder,20.0,2,2,0
+inj_4469,unknown,murder,20.0,2,2,0
+inj_4472,Ferozepur,murder,20.0,2,2,0
+inj_4474,unknown,murder,20.0,1,2,1
+inj_4477,unknown,murder,14.0,2,2,0
+inj_4501,unknown,rape,5.0,1,1,0
+inj_4502,M.N. Sharma,murder,20.0,2,2,0
+inj_4504,unknown,murder,7.0,1,1,0
+inj_4506,unknown,murder,20.0,2,2,0
+inj_4508,unknown,murder,20.0,2,2,0
+inj_4512,Varadar,robbery,1.0,0,0,0
+inj_4531,unknown,murder,20.0,2,2,0
+inj_4548,unknown,other,2.0,0,0,0
+inj_4554,unknown,murder,20.0,2,2,0
+inj_4589,unknown,other,2.0,0,0,0
+inj_4594,Gopinath Ghosh,murder,20.0,2,2,0
+inj_4596,Ambala,murder,20.0,1,2,1
+inj_4620,unknown,other,8.0,2,2,0
+inj_4646,Ram Kishan,murder,2.0,2,0,-2
+inj_465,unknown,fraud,3.0,0,0,0
+inj_4663,unknown,murder,3.0,1,0,-1
+inj_4698,unknown,murder,2.0,2,0,-2
+inj_4700,unknown,fraud,2.0,0,0,0
+inj_4724,unknown,theft,7.0,0,1,1
+inj_4726,unknown,murder,20.0,2,2,0
+inj_4749,Shri Navin,murder,20.0,2,2,0
+inj_475,unknown,murder,20.0,1,2,1
+inj_4778,Jagvinder Singh,murder,7.0,1,1,0
+inj_4779,unknown,murder,20.0,2,2,0
+inj_4780,Rachna Joshi,murder,7.0,1,1,0
+inj_4840,unknown,other,1.0,0,0,0
+inj_4844,unknown,murder,7.0,1,1,0
+inj_485,unknown,rape,2.0,1,0,-1
+inj_4858,unknown,murder,20.0,2,2,0
+inj_4902,unknown,murder,20.0,2,2,0
+inj_492,Karimnagar,murder,20.0,2,2,0
+inj_4924,unknown,murder,5.0,2,1,-1
+inj_5009,B.C. Ray,murder,5.0,1,1,0
+inj_501,C. Nos,murder,2.0,0,0,0
+inj_5037,unknown,assault,20.0,0,2,2
+inj_5076,unknown,murder,20.0,2,2,0
+inj_510,J. N. Banerjee,murder,20.0,1,2,1
+inj_5104,OZA,other,2.0,0,0,0
+inj_5141,unknown,murder,10.0,1,2,1
+inj_515,unknown,robbery,10.0,0,2,2
+inj_5168,Shri A.N. Mulla	 Sr,murder,1.0,2,0,-2
+inj_517,unknown,murder,4.0,2,1,-1
+inj_5181,Frank Anthony	 Sushil,murder,20.0,2,2,0
+inj_5193,unknown,robbery,4.0,2,1,-1
+inj_5196,Kanpur,murder,20.0,2,2,0
+inj_520,unknown,rape,5.0,1,1,0
+inj_524,IMAM J.,murder,3.0,0,0,0
+inj_5297,unknown,murder,20.0,2,2,0
+inj_5300,unknown,murder,7.0,1,1,0
+inj_5429,J.M. Khanna,murder,20.0,2,2,0
+inj_5439,OZA,murder,20.0,2,2,0
+inj_544,I. N. Shroff,theft,20.0,0,2,2
+inj_5440,J. Crl,murder,1.0,0,0,0
+inj_5459,OZA,murder,20.0,2,2,0
+inj_548,H. J. Umrigar,other,2.0,0,0,0
+inj_5484,unknown,theft,3.0,0,0,0
+inj_5493,unknown,murder,20.0,2,2,0
+inj_55,Mehta J.,theft,1.0,2,0,-2
+inj_5501,unknown,robbery,20.0,2,2,0
+inj_5517,unknown,murder,20.0,2,2,0
+inj_5529,unknown,murder,20.0,2,2,0
+inj_5557,unknown,murder,2.0,0,0,0
+inj_5564,unknown,murder,20.0,2,2,0
+inj_5581,unknown,murder,20.0,2,2,0
+inj_5612,unknown,murder,7.0,0,1,1
+inj_566,H. J. Umrigar,murder,3.0,0,0,0
+inj_5663,Soli J. Sorabji,other,7.0,0,1,1
+inj_5670,Amal Datta,murder,2.0,0,0,0
+inj_568,H. J. Umrigar,other,1.0,0,0,0
+inj_5696,unknown,murder,7.0,2,1,-1
+inj_5771,unknown,rape,7.0,1,1,0
+inj_5795,unknown,murder,20.0,2,2,0
+inj_5826,unknown,murder,7.0,1,1,0
+inj_5889,unknown,murder,7.0,1,1,0
+inj_5937,Shivaji Patil,murder,20.0,2,2,0
+inj_596,A. A. Peerbhoy,murder,20.0,2,2,0
+inj_5974,unknown,murder,20.0,2,2,0
+inj_6,Soni JJ,murder,3.0,1,0,-1
+inj_60,unknown,fraud,1.0,0,0,0
+inj_6049,J. Ravinder Kaur,murder,5.0,1,1,0
+inj_6133,unknown,robbery,7.0,0,1,1
+inj_6143,A.M. Khanwil,rape,5.0,1,1,0
+inj_6172,unknown,assault,1.0,0,0,0
+inj_6204,unknown,murder,7.0,2,1,-1
+inj_6232,unknown,other,20.0,0,2,2
+inj_6255,unknown,murder,20.0,2,2,0
+inj_6273,unknown,murder,10.0,1,2,1
+inj_6300,unknown,murder,5.0,0,1,1
+inj_6339,J. Khanjan Pal,murder,1.0,2,0,-2
+inj_635,R. H. Dhebar,murder,20.0,0,2,2
+inj_6380,K.C. Sharma,murder,20.0,2,2,0
+inj_6401,J. Raj Kumari,murder,20.0,2,2,0
+inj_6415,Jagdish,murder,5.0,1,1,0
+inj_642,Ferozepur,kidnapping,3.0,0,0,0
+inj_6477,unknown,murder,20.0,2,2,0
+inj_6509,Meerut,murder,20.0,0,2,2
+inj_6515,D. Bhandari,murder,10.0,0,2,2
+inj_6517,Order,murder,2.0,2,0,-2
+inj_6531,unknown,murder,5.0,2,1,-1
+inj_6557,Duddula Venkata Subba Reddy,murder,20.0,2,2,0
+inj_6559,Order,murder,20.0,2,2,0
+inj_6561,unknown,rape,3.0,0,0,0
+inj_6568,unknown,murder,20.0,2,2,0
+inj_6576,S.S. Khanduja,murder,20.0,1,2,1
+inj_6577,J. Mohinder Kaur,murder,7.0,1,1,0
+inj_6581,A. Nos,murder,20.0,2,2,0
+inj_6614,Mohan Raj,murder,20.0,2,2,0
+inj_6627,unknown,murder,20.0,1,2,1
+inj_663,N. Anand,other,2.0,1,0,-1
+inj_6634,unknown,murder,20.0,2,2,0
+inj_6642,unknown,murder,20.0,2,2,0
+inj_6643,unknown,murder,5.0,2,1,-1
+inj_665,unknown,murder,3.0,1,0,-1
+inj_6664,J. Balbir Singh,murder,20.0,2,2,0
+inj_6674,Frank Anthony	 Sushil,murder,20.0,2,2,0
+inj_6732,N.M. Parthasarathy,fraud,2.0,0,0,0
+inj_6736,Chandra Mohan Tiwari,murder,20.0,2,2,0
+inj_6743,J. Bhagwan Swaroop,murder,5.0,1,1,0
+inj_6761,Constitu,other,1.0,0,0,0
+inj_6780,unknown,other,2.0,0,0,0
+inj_6808,unknown,murder,20.0,1,2,1
+inj_6819,unknown,murder,20.0,2,2,0
+inj_6828,unknown,murder,7.0,1,1,0
+inj_6830,J. Sardar Singh,murder,20.0,2,2,0
+inj_6832,M.T. George,murder,3.0,0,0,0
+inj_6837,unknown,murder,1.0,1,0,-1
+inj_6841,Ashok Bhan,murder,20.0,1,2,1
+inj_6850,S.K. Nandy,murder,20.0,2,2,0
+inj_6855,unknown,murder,20.0,2,2,0
+inj_6858,unknown,murder,7.0,1,1,0
+inj_6862,unknown,murder,20.0,2,2,0
+inj_6871,Aruneshwar Gupta,murder,20.0,1,2,1
+inj_6879,D. Goburdhan,murder,3.0,0,0,0
+inj_6887,unknown,murder,1.0,1,0,-1
+inj_6910,Radhey Shayam,murder,10.0,2,2,0
+inj_6928,A.N. Mulla,murder,1.0,0,0,0
+inj_711,H. J. Umrigar,other,1.0,0,0,0
+inj_755,Gorakhpur,murder,3.0,2,0,-2
+inj_77,Simla,murder,7.0,2,1,-1
+inj_781,Madhya Saurashtra,murder,20.0,2,2,0
+inj_822,P. K. Chatterjee,murder,20.0,1,2,1
+inj_828,N. Andley,murder,20.0,2,2,0
+inj_839,H. J. Umrigar,assault,5.0,1,1,0
+inj_860,unknown,other,1.0,0,0,0
+inj_91,Ambala,murder,7.0,1,1,0
+inj_922,N. Andley,murder,20.0,1,2,1
+inj_953,WANCHOO J.,other,3.0,0,0,0
